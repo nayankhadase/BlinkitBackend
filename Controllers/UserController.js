@@ -1,7 +1,6 @@
 const userModel = require("../Models/user")
 const jwt = require('jsonwebtoken')
 const bcrypt = require('bcrypt')
-const { use } = require("../Routes/userRoute")
 const maxtime = 2 * 24 * 60 * 60
 
 
